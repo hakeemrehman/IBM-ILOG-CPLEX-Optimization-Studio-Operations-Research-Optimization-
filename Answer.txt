@@ -1,0 +1,23 @@
+// solution (optimal) with objective 844757000
+// Quality Incumbent solution:
+// MILP objective                                 8.4475700000e+08
+// MILP solution norm |x| (Total, Max)            1.20000e+01  1.00000e+00
+// MILP solution error (Ax=b) (Total, Max)        0.00000e+00  0.00000e+00
+// MILP x bound error (Total, Max)                0.00000e+00  0.00000e+00
+// MILP x integrality error (Total, Max)          0.00000e+00  0.00000e+00
+// MILP slack bound error (Total, Max)            0.00000e+00  0.00000e+00
+// 
+
+Assign = [[1
+             0 0 1 1 1 0 0 0]
+             [0 0 0 0 0 0 0 0 0]
+             [0 0 1 0 0 0 1 0 1]
+             [0 0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 0 0 0 0]
+             [0 1 0 0 0 0 0 1 0]
+             [0 0 0 0 0 0 0 0 0]];
+Open = [1 0 1 0 0 0 0 1 0];
+
+Solving CPU Elapsed Time  in (Seconds): 4.796875
