@@ -1,0 +1,20 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: Hakeem-Ur-Rehman
+ * Creation Date: Aug 28, 2020 at 12:06:46 PM
+ *********************************************/
+Products = { kluski capellini fettucine };
+Resources = { flour eggs };
+NbPeriods = 3;
+
+Consumption = [[ 0.5, 0.4, 0.3 ],
+				[ 0.2, 0.4, 0.6 ]];
+Capacity = [ 20, 40 ];
+
+Demand = [[ 10 100 50 ]
+		  [ 20 200 100]
+		  [ 50 100 100]];
+Inventory = [ 0 0 0];
+InvCost = [ 0.1 0.2 0.1];
+InsideCost = [ 0.4, 0.6, 0.1 ];
+OutsideCost = [ 0.8, 0.9, 0.4 ];
