@@ -1,0 +1,21 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: Hakeem-Ur-Rehman
+ * Creation Date: Aug 26, 2020 at 3:23:51 PM
+ *********************************************/
+Products =  { "kluski", "capellini", "fettucine" };
+Resources = { "flour", "eggs" };
+Machines = { m1, m2,  m3 };
+RentCost = [ 20, 10, 5 ];
+
+MaxProduction = 100000;
+
+Product = #[
+	  kluski : < 100, 0.6, 0.8, [ 0.5, 0.2 ], m1 >
+      capellini : < 200, 0.8, 0.9, [ 0.4, 0.4 ], m2 >
+      fettucine : < 300, 0.3, 0.4, [ 0.3, 0.6 ], m3>
+          ]#;
+
+                
+Capacity = [ 20, 40 ];
+ 
