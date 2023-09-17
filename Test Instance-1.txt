@@ -1,0 +1,36 @@
+Problem instance # 1: 
+
+Periods = 4 
+Products = 4 
+Resources = 1
+
+Unit Production Cost = 10 // All the Products
+
+Setup costs (products)
+   35.0000     
+   15.0000     
+   25.0000     
+   50.0000     
+  
+ Holding costs (products)
+    4.0000
+    7.0000
+    6.0000
+    3.0000
+    
+Demand (Row = Product, Col = Time Period)
+66	29	44	99
+68	25	56	101
+64	32	46	86
+82	34	54	114
+
+Setup time (periods) (in minutes) 
+10	15	10	5
+
+Production time per unit (in minutes)
+2	1	3	1
+
+Capacities (periods) (in minutes)
+  567	567	567	567
+
+
