@@ -1,0 +1,19 @@
+// solution (optimal) with objective 2958
+// Quality Incumbent solution:
+// MILP objective                                 2.9580000000e+03
+// MILP solution norm |x| (Total, Max)            4.02000e+02  2.50000e+01
+// MILP solution error (Ax=b) (Total, Max)        0.00000e+00  0.00000e+00
+// MILP x bound error (Total, Max)                0.00000e+00  0.00000e+00
+// MILP x integrality error (Total, Max)          0.00000e+00  0.00000e+00
+// MILP slack bound error (Total, Max)            0.00000e+00  0.00000e+00
+// 
+
+setup = [1
+         1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1];
+inventory = [0 6 15 0 7 20 15 15 20 25 9 0 7 0 0 15 0 10 0 5 0];
+Pquantity = [18 15 5 12 20 20 0 10 10 5 0 12 20 0 20 5 15 0 10 20];
+
+Days of Production:  [1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 0 1 1]
+Inventories:  [0 6 15 0 7 20 15 15 20 25 9 0 7 0 0 15 0 10 0 5 0]
+Lot sizes:  [18 15 5 12 20 20 0 10 10 5 0 12 20 0 20 5 15 0 10 20]
+Total cost: 2958
