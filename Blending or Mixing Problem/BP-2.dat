@@ -1,0 +1,18 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: Hakeem-ur-Rehman
+ * Creation Date: Jan 4, 2017 at 11:14:49 AM
+ *********************************************/
+//Index
+Raw_material = 3;
+Final_products = 2;
+
+//Parameters
+price = [10,8];
+cost = [1.00,1.50,3.00];
+supply = [2000,1000,500]; // Amount Available 
+demand = [600,700];
+minprop = [[0.4,0.5],[0.1,0.1],[0.2,0.2]];
+maxprop = [[0.6,0.6],[0.2,0.4],[0.5,0.3]];
+
+ 
